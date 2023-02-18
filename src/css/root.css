@@ -4,7 +4,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #FFBA19;
+    --primary: #F1E715;
     --primaryShade: #ffd675;
     --primaryDark: #805d0d;
     --bodyTextColor: #4E4B66;
@@ -440,7 +440,7 @@
     border-radius: 0.1875rem;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.125rem;
+    bottom: -.75rem;
     z-index: -1;
     left: 0;
     width: 0%;
@@ -457,7 +457,7 @@
     height: 0.375rem;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.125rem;
+    bottom: -.75rem;
     border-radius: 0.1875rem;
     left: 0rem;
     right: -0.375rem;
