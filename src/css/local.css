@@ -91,6 +91,8 @@
     margin-bottom: 1rem;
     color: var(--bodyTextColor);
   }
+
+ 
   #sbs .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
