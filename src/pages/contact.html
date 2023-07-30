@@ -19,7 +19,7 @@ eleventyNavigation:
 
 <section id="int-hero">
   <h1 id="home-h">Contact Us</h1>
-  {% image './src/images/cabinets2.jpg', 'cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+  {% image './src/images/lake-day.webp', 'lake hartwell', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
 
 <!-- ============================================ -->
@@ -33,7 +33,8 @@ eleventyNavigation:
         <span class="cs-topper">Contact</span>
         <h2 class="cs-title">Get in Touch</h2>
         <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
+          We would love to talk to you about your website and how we can help you grow your small business. If you have any questions or concerns please feel free to reach out to us. If you prefer calling or texting, my number is (706) 406-8184. You can also email me at <a href="mailto:rickydpatrick@gmail.com">rickydpatrick@gmail.com</a>.
+
                 </p>
       </div>
       <label>
@@ -58,19 +59,24 @@ eleventyNavigation:
       </label>
       <button class="cs-button-solid" type="submit">Submit Message</button>
     </form>
-    <div class="cs-right-section">
-      <!--Email-->
-      <span class="cs-header">Email</span>
-      <a class="cs-link" href="mailto:support@yourdomain.com">support@yourdomain.com</a>
-      <!--Phone-->
-      <span class="cs-header">Phone</span>
-      <a class="cs-link" href="tel:219-555-1234">(219) 555-1234</a>
-      <!--Address-->
-      <span class="cs-header">Address</span>
-      <a class="cs-link" href="">2553 Woodbridge Lane, <span class="cs-block">Boston Ware 120</span></a>
-
-      <!-- Background Image-->
-      {% image './src/images/skyscraper.jpg', 'building', '', 'lazy'%}
-    </div>
+    <div><script src='https://www.google.com/recaptcha/api.js'></script>
+      <div class='g-recaptcha' data-sitekey='6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9'></div>
+      <noscript>
+        <div>
+        <div style="width: 302px; height: 422px; position: relative;">
+        <div style="width: 302px; height: 422px; position: absolute;">
+        <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9" frameborder="0" scrolling="no"
+          style="width: 302px; height:422px; border-style: none;">
+        </iframe>
+        </div>
+        </div>
+        <div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+          <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+            style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;" >
+          </textarea>
+        </div>
+        </div>
+      </noscript>
+      </div>
   </div>
 </section>
