@@ -11,7 +11,7 @@ date: 2023-07-30T13:09:44.052Z
 tags:
   - post
   - featured
-image: /images/blog/2023-07-30-09_10_54-pagespeed-insights.png
+image: /images/blog/what-is-a-good-internet-speed.jpeg
 imageAlt: page speed insights
 ---
 ### **Introduction**
