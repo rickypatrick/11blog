@@ -12,6 +12,7 @@ author: Ricky Patrick
 date: 2023-08-11T16:36:38.816Z
 tags:
   - post
+  - featured
 image: /images/blog/pexels-oleksandr-p-9822732.jpg
 imageAlt: SEO Blocks
 ---
