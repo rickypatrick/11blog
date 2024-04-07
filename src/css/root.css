@@ -357,6 +357,7 @@
     border-radius: 0.625em;
     background: var(--primary);
   } */
+  
   body.scroll #navigation .background-color-div {
     height: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
