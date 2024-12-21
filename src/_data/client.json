@@ -1,15 +1,16 @@
 {
   "name": "Hartwell Web Design",
   "email": "rickydpatrick@gmail.com",
-  "phone": "706-498-0600",
-  "phoneFormatted": "(706) 498-0600",
+  "phone": "762-847-0150",
+  "phoneFormatted": "(762) 847-0150",
   "address": {
     "lineOne": "First Address Line",
     "lineTwo": "Second Address Line, If Needed",
     "city": "Hartwell",
     "county": "GA",
-    "postcode": "80206",
+    "postcode": "30643",
     "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
   },
   "domain": "www.hartwellwebdesign.com"
 }
+

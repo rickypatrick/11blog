@@ -685,6 +685,13 @@
     font-size: 1.125rem;
     opacity: .9;
   }
+  #footer .right-section .lists ul li p{
+    list-style: none;
+    margin-bottom: 0.75rem;
+    color: #fff;
+    font-size: 1.125rem;
+    opacity: .9;
+  }
   #footer .right-section .lists ul li a {
     text-decoration: none;
     color: #fff;
