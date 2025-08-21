@@ -50,7 +50,7 @@ eleventyNavigation:
 <!--                  Services                    -->
 <!-- ============================================ -->
 
-<!-- <section id="services" class="services">
+<section id="services" class="services">
   
   <div class="card">
     <picture>
@@ -94,7 +94,7 @@ eleventyNavigation:
     <h2>No Money Upfront</h2>
     <p>You pay $150 per month with no upfront investment. This includes domain, hosting, and ongoing updates. Prefer a lump sum quote?<br><a href="/contact/">Contact Me</a></a></p>
   </div>
-</section> -->
+</section>
 
 <!-- ============================================ -->
 <!--                 Side By Side                 -->
@@ -119,12 +119,15 @@ eleventyNavigation:
             <li>One Domain Name</li>
             <li>Google Analytics installation</li>
           <li>Future edits at no additional charge</li>
+          <li><strong>All for just $150 per month - $0 Upfront</strong></li>
 
 
 
 
         </ul>
       </p>
+
+                              
       
       <!-- <div class="cs-flex-group">
         <p class="cs-flex-p">
@@ -143,10 +146,14 @@ eleventyNavigation:
           height="77"
 />
       </div> -->
-      <a href="/contact/" class="button-solid">Start Now</a>
+      <a href="/contact/" class="button-solid">Book your free consultation today with $0 Upfront</a>
     </div>
   </div>
 </section>
+      <!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
 
 <!-- ============================================ -->
 <!--            Extra Content To Rank             -->
@@ -206,4 +213,14 @@ Grow your online presence now.    </h2>
         }
       });
   }
+</script>
+<script>
+  const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+        for (const item of faqItems) {
+            const onClick = () => {
+            item.classList.toggle('active')
+        }
+        item.addEventListener('click', onClick)
+        }
+                                
 </script>
